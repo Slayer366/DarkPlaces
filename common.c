@@ -1468,7 +1468,7 @@ void COM_InitGameType (void)
 {
 	char name [MAX_OSPATH];
 	int i;
-	int index = GAME_NEXUIZ;
+	int index = GAME_NORMAL;
 
 #ifdef FORCEGAME
 	COM_ToLowerString(FORCEGAME, name, sizeof (name));

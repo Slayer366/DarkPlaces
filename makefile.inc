@@ -199,10 +199,10 @@ LDFLAGS_COMMONCL=$(LIB_OGGVORBIS) $(LIB_OPUS) $(LIB_FREETYPE) $(LIB_GL) $(LIB_VP
 
 LDFLAGS_UNIXCOMMON=-lm $(LDFLAGS_COMMONSV)
 LDFLAGS_UNIXSDL=$(SDLCONFIG_LIBS) $(LDFLAGS_COMMONCL)
-EXE_UNIXSV=darkplaces-rm-dedicated
-EXE_UNIXSDL=darkplaces-rm-sdl
-EXE_UNIXSVNEXUIZ=nexuiz-dprm-dedicated
-EXE_UNIXSDLNEXUIZ=nexuiz-dprm-sdl
+EXE_UNIXSV=darkplaces-dedicated
+EXE_UNIXSDL=darkplaces-sdl
+EXE_UNIXSVNEXUIZ=nexuiz-dp-dedicated
+EXE_UNIXSDLNEXUIZ=nexuiz-dp-sdl
 EXE_UNIXSVREXUIZ=rexuiz-dedicated
 EXE_UNIXSDLREXUIZ=rexuiz-sdl
 
