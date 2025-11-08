@@ -75,6 +75,8 @@ TARGETS_REXUIZ=sv-rexuiz sdl-rexuiz
 ###### Optional features #####
 OBJ_SDLCD=$(OBJ_CD_COMMON)
 
+DP_GLES2=1
+
 DP_VIDEO_OGV?=disabled
 DP_VIDEO_CAPTURE?=enabled
 ifeq ($(DP_VIDEO_CAPTURE), enabled)
