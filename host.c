@@ -1549,6 +1549,10 @@ static void Host_Init (void)
 	}
 	#endif
 
+  if (!FS_FileExists(CONFIGFILENAME)) {
+      Cvar_SetValue("viewsize", 110.0f);
+  }
+
 	Con_DPrint("========Initialized=========\n");
 
 	//Host_StartVideo();
